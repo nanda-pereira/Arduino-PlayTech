@@ -3,11 +3,11 @@ import starwars from "../assets/starwars.mp4";
 
 const Dino = () => (
     <section className={layout.sectionReverse}>
-        <div className={layout.sectionInfo}>
-            <video width={400} height={400} autoPlay muted loop style={{ outline: 'none', borderRadius: '8px' }} >
-                <source src={starwars} type="video/mp4" />
-            </video>
-        </div>
+    <div className={`flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`}>
+                <video width={400} height={400} autoPlay muted loop style={{ outline: 'none', borderRadius: '8px' }} >
+                    <source src={starwars} type="video/mp4" />
+                </video>
+    </div>
 
 
         <div className={`flex-1 md:ml-10 ml-0 md:mt-0 mt-10 relative`}>
@@ -20,7 +20,6 @@ const Dino = () => (
             Construído com display Oled, buzzer e botões.
             </p>
         </div>
-
     </section >
 );
 
