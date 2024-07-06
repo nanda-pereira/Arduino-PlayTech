@@ -6,8 +6,8 @@ const Projetos = () => (
     <div className={layout.sectionImgReverse}>
       <img src={componentes} 
       className="floating relative z-[5]"
-      style={{ width: '1000px', height: 'auto', marginRight: '100px', }}
-      alt="billing" />
+      style={{ width: '1000px', height: 'auto', marginRight: '5%', }}
+      alt="componentes, sensor ultrassônico, led, buzzeer e botão" />
 
     <div className="absolute z-[1] w-[50%] h-[50%] rounded-full white__gradient bottom-40" />
     <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />

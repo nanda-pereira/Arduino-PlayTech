@@ -8,7 +8,7 @@ const Dino = () => (
         Dino<br className="sm:block hidden" />
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Um jogo popular e divertido, seu objetivo é fazer o Dino pular para não bater nos cactos.
+      Um jogo popular e divertido. Seu objetivo é fazer o Dino pular para não bater nos cactos. <br/>
       Construído com um display Oled e botão.
       </p>
     </div>
